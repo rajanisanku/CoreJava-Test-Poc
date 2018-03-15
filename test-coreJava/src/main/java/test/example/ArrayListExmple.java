@@ -1,9 +1,7 @@
 package test.example;
 import java.util.ArrayList;
 
-public class ArrayListExmple {
-	ArrayList<String> st = new ArrayList<String>();
-	
+public class ArrayListExmple {	
 	 public static int findMax(ArrayList<Integer> l){
 		 int max = l.get(0);
 		 for(int i=0;i<l.size();i++) {

@@ -5,7 +5,7 @@ class Repeatition_basic
 	private static final char NULL = 0;
 	public static void main (String[] args) 
 	{
-		String str = "java Java bhoomika Joshi hello";
+		String str = "java Java bhoomika Joshi hello ";
 		String strWithoutSpace = str.replaceAll(" ","");
 		char[] ch = strWithoutSpace.toCharArray(); 
 		System.out.println("Printing the repeated Characters : ");

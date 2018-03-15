@@ -1,5 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
 import org.junit.Assert;
 import org.junit.Test;
@@ -24,8 +26,8 @@ public class ArrayListExampleTest {
 	@Test
 	public void testString() {
 		String s = "Hi";
-		String s1 = "Hi";
-		assertEquals(s, s1);
+		String s1 = "Hello";
+		assertTrue(s == s1);
 	}
 	@Test
 	public void testList() {

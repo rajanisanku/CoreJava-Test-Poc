@@ -2,7 +2,7 @@ package test.learning;
 
 import java.util.*;
 
-public class Duplicate{
+public class DuplicateRemove{
 	public static void main(String[] args) {
 		List<Integer> l = new ArrayList<Integer>();
 		l.add(1);

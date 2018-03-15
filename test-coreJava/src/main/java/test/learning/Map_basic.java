@@ -2,7 +2,6 @@ package test.learning;
 
 import java.util.*;
 
-
 public class Map_basic {
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
@@ -17,10 +16,7 @@ public class Map_basic {
 			
 		}
 		System.out.println(map.values());
-		List<String> l1 = new ArrayList<String>();
-		l1.add("Gunakshi");
-		System.out.println(l1);
-	}
+			}
 	
 
 }
